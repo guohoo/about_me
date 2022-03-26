@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+        <style>
+            .meta{margin: 0px;}
+            .head-bg{
+                background-image: url('https://cdn.jsdelivr.net/gh/guohoo/blog-source@master/background/article-cover/82862103_p13.webp');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                background-origin: border-box;
+                width: 100%;
+                height: 45%;
+            }
+            header{
+                position: absolute;
+                top: 20%;
+                left: 0;
+                right: 0;
+                text-align: center;
+                color: #fff;
+                text-shadow: 2px 2px 10px #000;
+            }
+            header > h1{
+                font-size: 40px; font-weight: 500;
+            }
+            .links_ul{
+                display: flex;
+                flex-wrap: wrap;
+                width: 60%;
+                margin: 10px 20%;
+                padding: 0px;
+                list-style-type: none;
+            }
+            .links_ul > li{
+                flex: 250px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                background-origin: border-box;
+                border-style: none;
+                border-radius: 15px;
+                width: 25%;
+                height: 250px;
+                margin: 10px 25px;
+            }
+            .links_ul a{
+                display: block;
+                position: relative;
+                top: 40%;
+                text-align: center;
+                font-size: 25px;
+                font-weight: 600;
+                text-shadow: 2px 2px 5px #000;
+                letter-spacing: 0.6px;
+                color: #fff;
+                text-decoration: none;
+                word-wrap: break-word;
+            }
+            .li-shadow:hover{box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);}
+            footer a{
+                color: rgb(212, 78, 195);
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body class="meta">
+        <div class="head-bg">
+            <header>
+                <h1>Links</h1>
+            </header>
+        </div>
+        <div style="
+            width: 55%;
+            margin: 30px auto 20px;">
+            <p style="text-align: center">这里是片试验田~🤪</p>
+            <div id="aplayer" class="aplayer aplayer-withlrc"></div>
+            <script>
+                const ap = new APlayer({
+                    container: document.getElementById('aplayer'),
+                    audio: [
+                        {
+                            cover: "https://imashiro.gitee.io/music/天気の子/cover.jpg",
+                            name: "花火大会",
+                            artist: "RADWIMPS",
+                            url: "https://imashiro.gitee.io/music/天気の子/花火大会.mp3",
+                        },
+                        {
+                            cover: "https://imashiro.gitee.io/music/天気の子/cover.jpg",
+                            name: "グランドエスケープ (Full edit) feat.三浦透子",
+                            artist: "三浦透子",
+                            url: "https://imashiro.gitee.io/music/天気の子/グランドエスケープ (Full edit) feat.三浦透子.mp3",
+                        },
+                        {
+                            cover: "https://imashiro.gitee.io/music/君の名は。/cover.jpg",
+                            name: "かたわれ時",
+                            artist: "RADWIMPS",
+                            url: "https://imashiro.gitee.io/music/君の名は。/かたわれ時.mp3",
+                        },
+                        {
+                            cover: "https://imashiro.gitee.io/music/君の名は。/cover.jpg",
+                            name: "三葉のテーマ",
+                            artist: "RADWIMPS",
+                            url: "https://imashiro.gitee.io/music/君の名は。/三葉のテーマ.mp3",
+                        },
+                        {
+                            cover: "https://imashiro.gitee.io/music/genshin/cover.jpg",
+                            name: "Tender Strength 同伴的力量",
+                            artist: "HOYO-MiX",
+                            url: "https://imashiro.gitee.io/music/genshin/同伴的力量.m4a",
+                        },
+                        {
+                            cover: "https://imashiro.gitee.io/music/genshin/cover.jpg",
+                            name: "Dance of Aphros 浪沫起舞",
+                            artist: "HOYO-MiX",
+                            url: "https://imashiro.gitee.io/music/genshin/浪沫起舞.m4a",
+                        },
+                        {
+                            cover: "https://imashiro.gitee.io/music/genshin/cover.jpg",
+                            name: "Moonlike Smile 皎洁的笑颜",
+                            artist: "HOYO-MiX",
+                            url: "https://imashiro.gitee.io/music/genshin/皎洁的笑颜.m4a",
+                        },
+                    ]
+                });
+            </script>
+        </div>
+        <hr style="width: 60%;">
+        <ul class="links_ul">
+            <li class="li-shadow" style="background-image: url('https://cdn.jsdelivr.net/gh/guohoo/blog-source@master/background/74657521_p0.webp');">
+                <a href="https://wiki.mashiro.nl">Mashiro の Wiki</a>
+            </li>
+            <li class="li-shadow" style="background-image: url('https://cdn.jsdelivr.net/gh/guohoo/blog-source@master/background/72389353_p0.webp');">
+                <a href="https://blog.mashiro.nl">Mashiro の Blog</a>
+            </li>
+            <li class="li-shadow" style="background-image: url('https://cdn.jsdelivr.net/gh/guohoo/blog-source@master/background/article-cover/73106864_p0.webp');">
+                <a href="https://cloud.hooblog.cn">Mashiro の 云盘</a>
+            </li>
+            <li class="li-shadow" style="background-image: url('https://cdn.jsdelivr.net/gh/guohoo/blog-source@master/background/60141148_p0.webp');">
+                <a href="https://mashiro.nl/game/mikutap/">Mikutap</a>
+            </li>
+        </ul>
+    </body>
+    <footer>
+        <div>
+            <p style="text-align: center">Built by <a href="https://mashiro.nl">Mashiro</a> 🌸</p>
+        </div>
+    </footer>
+</html>
